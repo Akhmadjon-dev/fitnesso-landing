@@ -10,6 +10,36 @@ header{
     height: 60px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
 }
 
+.logo img{
+    height: 20px;
+}
 
+.nav{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav__link{
+    text-decoration: none;
+    color: #081158;
+    margin-left: 40px;
+}
+
+.nav__link--btn{
+    background: #081158;
+    padding: 12px 20px;
+    color: white;
+    border-radius: 6px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+.nav__link--btn img{
+    margin-right: 8px;
+}
